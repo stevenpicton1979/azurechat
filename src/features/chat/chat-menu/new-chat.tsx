@@ -15,7 +15,7 @@ export const NewChat = () => {
         router.refresh();
       }
     } catch (e) {
-      console.log(e);
+      console.error("OpenAI request failed:", e);
     }
   };
 
